@@ -18,5 +18,15 @@ Run the program.
 Input requirements:
 
 Supported image formats: JPEG, PNG and BMP.
+
 Image file size must be less than 4MB.
+
 Image dimensions must be at least 50 x 50, at most 4200 x 4200.
+
+Change the following variables in Program.cs before running:
+
+        const string subscriptionKey = "<Subscripiton-Key>";
+        const string uriBase = "https://<LOCATION>.api.cognitive.microsoft.com/vision/v2.0/recognizeText"; 
+        //example https://northeurope.api.cognitive.microsoft.com/vision/v2.0/recognizeText
+        const string outputfilepath = "<OUTPUT_FILE>/";        
+        //example C:/Users/t-daalka/Desktop/OCR/
